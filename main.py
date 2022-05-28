@@ -1,15 +1,15 @@
-#TeleShell Bot v0.02 BETA
+#TeleShell Bot v0.03 BETA
 #Simple shell Executor telegram bot writen with aiogram(Python Lib) 
 from aiogram import Bot, Dispatcher, executor, types
 import os
 
-API_TOKEN = '241563858:AAHunP9YnMzp60PQvM7S2ugUrL2YCwyNJDQ'
+API_TOKEN = '241563858:AAEQIGmUlnbcXqYWxPNu0p3NmOdpl9ARt5w'
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
 
 @dp.message_handler(commands=['start', 'help'])
 async def send_welcome(message: types.Message):
-    await message.reply("TeleShell BETA v0.02\nmade with <3")
+    await message.reply("TeleShell BETA v0.03\nmade with <3")
 
 @dp.message_handler()
 async def echo(message: types.Message):
