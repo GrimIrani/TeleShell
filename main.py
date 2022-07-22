@@ -14,12 +14,12 @@ async def send_welcome(message: types.Message):
 @dp.message_handler()
 async def echo(message: types.Message):
     try:
-        session = await message.answer(message.text+" commend,\n STARTED...❤️")
+        session = await message.answer(message.text+" commend,\n STARTED<3")
         result_record = os.system("%s > temp.result" % message.text)
         result = open("temp.result", "r+").read()
         await session.edit_text(result)
     except:
-        await session.edit_text(message.text+" commend,\n FAILED!💔")
+        await session.edit_text(message.text+" commend,\n FAILED!</3")
 
 if __name__ == '__main__':
     executor.start_polling(dp, skip_updates=True)
