@@ -15,4 +15,4 @@ pip install aiogram
 python3 main.py
 ```
 ## Demo
-![Imgur](https://imgur.com/elmPFzf)
+![DEMO](https://i.imgur.com/NcP1fPe.gif)
