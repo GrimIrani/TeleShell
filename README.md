@@ -18,7 +18,7 @@ python3 main.py
 ![DEMO](https://i.imgur.com/NcP1fPe.gif)
 
 # TODOs
-01-realtime/live replies (just don't mess the code)
-02-sessions managment
-03-smart sessions
-04-TODO(yeah,more TODOs are TODOs)
+- Realtime/live replies (just don't mess the code)
+- Sessions managment
+- Smart sessions
+- TODO(yeah, more TODOs are TODOs)
