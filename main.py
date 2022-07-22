@@ -14,7 +14,7 @@ async def send_welcome(message: types.Message):
 @dp.message_handler()
 async def echo(message: types.Message):
     try:
-        session = await message.answer(message.text+" commend,\n STARTED<3")
+        session = await message.answer(message.text+" commend,\n START...<3")
         result_record = os.system("%s > temp.result" % message.text)
         result = open("temp.result", "r+").read()
         await session.edit_text(result)
