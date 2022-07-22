@@ -17,7 +17,7 @@ python3 main.py
 ## Demo
 ![DEMO](https://i.imgur.com/NcP1fPe.gif)
 
-#TODOs
+# TODOs
 01-realtime/live replies (just don't mess the code)
 02-sessions managment
 03-smart sessions
