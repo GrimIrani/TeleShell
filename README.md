@@ -1,5 +1,5 @@
 # TeleShell
-Shell executor with aiogram telegram bot.
+Shell executor with aiogram(python lib) based telegram bot.
 ## Getting started
 ***Before you go***
 Just put your token in API_TOKEN that's in **main.py**
