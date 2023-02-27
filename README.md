@@ -1,9 +1,9 @@
 # TeleShell
-Reverse Shell with aiogram telegram bot.
+Shell executor with aiogram telegram bot.
 ## Getting started
 ***Before you go***
 Just put your token in API_TOKEN that's in **main.py**
-> API_TOKEN = ' ' #<<< Set your bot's API token Here >>>
+https://github.com/GrimIrani/TeleShell/blob/b3023e00ec4114e3ceaf21ceb429fda6e05296a5/main.py#L6
 ## Select your way(python or docker)
 ### (1/2)docker:
 ```
