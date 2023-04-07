@@ -1,3 +1,4 @@
+[![Documentation Status](https://readthedocs.org/projects/teleshell/badge/?version=latest)](https://teleshell.readthedocs.io/en/latest/?badge=latest)
 # TeleShell
 Shell executor with aiogram telegram bot.
 ## Getting started
