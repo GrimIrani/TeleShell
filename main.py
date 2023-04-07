@@ -24,4 +24,4 @@ async def echo(message: types.Message):
         await session.edit_text(message.text+" commend,\n FAILED!</3")
 
 if __name__ == '__main__':
-    executor.start_polling(dp, skip_updates=True)optionoption
+    executor.start_polling(dp, skip_updates=True)
