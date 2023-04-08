@@ -8,11 +8,12 @@ on:
 
 jobs:
 
-  Build and run:
-
+  Build:
     runs-on: ubuntu-latest
 
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag my-image-name:test && docker images
+      run: docker build . --file Dockerfile --tag my-image-name:test
+    - name: Check the Docker image
+      run: docker images
