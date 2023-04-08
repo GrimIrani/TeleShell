@@ -14,6 +14,8 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag my-image-name:test
-    - name: Check the Docker image
+      run: docker build . --file Dockerfile --tag TeleShell:beta
+    - name: Check the Docker images
       run: docker images
+    - name: Run the Docker image
+      run: docker run TeleShell:beta
