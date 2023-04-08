@@ -1,10 +1,11 @@
-#TeleShell Bot v0.06 BETA
+#TeleShell Bot v0.07 BETA
 #Simple shell Executor telegram bot writen with aiogram(Python Lib) 
 from aiogram import Bot, Dispatcher, executor, types
-import os
+import os, sys
 import tempfile
 
-API_TOKEN = '' #<<< Set your bot's API token Here >>>
+try: API_TOKEN = '' #<<< Set your bot's API token Here >>>
+except: API_TOKEN = sys.argv[1]
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
 temp = tempfile.NamedTemporaryFile(prefix="TeleShell_")
