@@ -1,18 +1,19 @@
-#TeleShell Bot v0.07 BETA
+#TeleShell Bot v0.08 BETA
 #Simple shell Executor telegram bot writen with aiogram(Python Lib) 
 from aiogram import Bot, Dispatcher, executor, types
 import os, sys
 import tempfile
 
-try: API_TOKEN = '' #<<< Set your bot's API token Here >>>
-except: API_TOKEN = sys.argv[1]
-bot = Bot(token=API_TOKEN)
+API_TOKEN = '' #<<< Set your bot's API token Here >>>
+PROXY_URL = '' #<<< Set your bot's Proxy Here >>>
+
+bot = Bot(token=API_TOKEN, proxy=PROXY_URL)
 dp = Dispatcher(bot)
 temp = tempfile.NamedTemporaryFile(prefix="TeleShell_")
 
 @dp.message_handler(commands=['start', 'help'])
 async def welcome(message: types.Message):
-    await message.reply("TeleShell BETA v0.06\nmade with <3")
+    await message.reply("TeleShell BETA v0.08\nmade with <3")
 
 @dp.message_handler()
 async def echo(message: types.Message):
