@@ -1,0 +1,11 @@
+API:
+  API_TOKKEN:
+
+PROXY:
+  USE:  False
+  TYPE: SOCKS5
+  #SOCKS4, SOCKS5 or HTTPS
+  HOST: 127.0.0.1
+  PORT: 1080
+  USER: 
+  PASS: 
