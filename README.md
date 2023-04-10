@@ -27,7 +27,7 @@ python3 main.py
 - Logging
 - TODO(yeah, more TODOs are TODOs)
 
-# Updates
+# Changelog
 | Version | Changes | attech |
 | ------- | ------- | ------ |
 | v0.09 | RealtimeAnswer | [commit](messy) |
