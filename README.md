@@ -25,6 +25,8 @@ python3 main.py
 - Sessions managment
 - Smart sessions
 - Logging
+- Control button
+- Frame
 - TODO(yeah, more TODOs are TODOs)
 
 # Changelog
