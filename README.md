@@ -27,6 +27,7 @@ python3 main.py
 - Logging
 - Control button
 - Frame
+- Pages(long response)
 - TODO(yeah, more TODOs are TODOs)
 
 # Changelog
