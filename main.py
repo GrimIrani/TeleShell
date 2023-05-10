@@ -4,7 +4,7 @@ from aiogram import Bot, Dispatcher, executor, types
 import os, sys
 import tempfile
 
-API_TOKEN = '' #<<< Set your bot's API token Here >>>
+API_TOKEN = '1944525820:AAFdcZimJkoMCKoWAbxnxAF4p5RWhUNnans' #<<< Set your bot's API token Here >>>
 #PROXY_URL = '' #<<< Set your bot's Proxy Here >>>
 
 bot = Bot(token=API_TOKEN)
