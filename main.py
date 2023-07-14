@@ -6,7 +6,6 @@ import tempfile
 
 # CONFIG:
 API_TOKEN = '1944525820:AAFdcZimJkoMCKoWAbxnxAF4p5RWhUNnans' #<<< Set your bot's API token Here >>>
-#PROXY_URL = '' #<<< Set your bot's Proxy Here >>>
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
 temp = tempfile.NamedTemporaryFile(prefix="TeleShell_", mode='w+')
